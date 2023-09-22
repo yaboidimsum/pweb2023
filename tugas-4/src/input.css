@@ -1,0 +1,194 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Montaga&display=swap");
+
+.place-yellow {
+  background: #fff3b0;
+}
+.place-green,
+nav {
+  background: #335c67;
+}
+
+h2 {
+  color: #000;
+  font-family: Montaga;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+h3 {
+  color: #000;
+  font-family: Montaga;
+  font-size: 96px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+h4 {
+  color: var(--neutral-text-primary, #2b1105);
+
+  /* Heading Medium (H2)/Desktop */
+  font-family: Montaga;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%; /* 56px */
+}
+
+h5 {
+  color: #000;
+  font-family: Montaga;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 66.667% */
+}
+
+h6 {
+  color: #000;
+  text-align: center;
+  font-family: Montaga;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.comment-name {
+  color: #000;
+  font-family: Montaga;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.card-form {
+  display: flex;
+  padding: 47px 58.463px 76px 51.537px;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  background: #fff3b0;
+}
+
+p {
+  color: var(--neutral-text-primary, #2b1105);
+  text-align: justify;
+
+  /* Text Base/All Breakpoints */
+  font-family: Montaga;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 28.8px */
+}
+
+.span-location {
+  color: var(--wedding-colors-primary, #c6754d);
+
+  /* Heading All Caps (H6)/Desktop */
+  font-family: Montaga;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%; /* 18px */
+  align-self: stretch;
+}
+
+.place-photo {
+  width: 40rem;
+}
+.story-photo {
+  width: 45rem;
+}
+
+.profile-photo {
+  width: 15rem;
+}
+
+.comment-photo {
+  width: 5rem;
+}
+
+.comment-card {
+  display: flex;
+  width: 600px;
+  padding: 1rem;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  border-radius: 10px;
+  background: #fff3b0;
+}
+
+.logo-nav{
+  width:3rem;
+}
+
+.nav-text {
+  color: #fff;
+  /* Link/Nav */
+  font-family: Montaga;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 145.455% */
+}
+
+.reception-text {
+  color: #000;
+  text-align: justify;
+  /* Text Base/All Breakpoints */
+  font-family: Montaga;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 28.8px */
+}
+
+section {
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+home {
+  min-height: 100vh;
+}
+
+.input-text {
+  width: 490px;
+  height: 50px;
+}
+
+.image-home {
+  width: 30rem;
+  opacity: 0.5;
+  display: flex;
+}
+
+.home-title {
+  position: absolute;
+}
+
+.button-map {
+  display: flex;
+  width: 10rem;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background: #335c67;
+  color: #fff;
+  font-family: Montaga;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
